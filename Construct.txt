@@ -1,0 +1,17 @@
+Construct.txt
+====================
+This file describes how Peer1 and Peer2 were constructed.
+1. Create an empty solution in your working directory
+1. Add C++ windows console applications Peer1 and Peer2.
+2. Copy the folder CppCommWithFileXfer from Project2HelpF2018 or 
+   from Handouts\Repository\Cpp\CppCommWithFileXfer.
+3. Load the projects for FileSystem, Message, MsgPassingComm, 
+   Sockets, and StringUtilities.
+4. Build them all as static libraries
+   - make sure you change TEST_PPP to noTEST_PPP in 
+     Properties > C/C++ > Preprocessor > Preprocessor Definitions
+5. Make references to all of them in your Peer1 and Peer2 projects.
+6. Now add code in the Peers to send and receive messages and
+   files.
+7. This demo shows the results of doing that.
+

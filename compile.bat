@@ -1,0 +1,1 @@
+devenv CppCommDemo.sln /rebuild debug

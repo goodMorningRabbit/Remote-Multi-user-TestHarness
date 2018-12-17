@@ -1,0 +1,23 @@
+Req #2 - assemble the working parts from Projects #1, #2, and #3 into a Client-Server configuration. Unlike conventional Client-Server architectures, the Client need not wait for a reply for a TestRequest from the TestHarness before sending additional TestRequests.
+test passed.
+Req #4 - Shall provide a Graphical User Interface (GUI) for the client that supports selecting test libraires to send for testing, and supports displaying the test results.
+ ==============================
+test passed.
+Req #5 - Shall provide message designs appropriate for this application. All messages are instances of the same Message class, but have a specified set of attributes and body contents suited for the intended task.
+ ==============================
+test passed.
+Req #6 - Shall support sending TestRequest messages from Client to TestHarness Server.
+ ==============================
+test passed.
+Req #7 - Shall support correctly executing each TestRequest, as a sequence of tests, with each TestRequest running in its own Process Pool child process.
+ ==============================
+test passed.
+Req #8 - Shall support sending test results, via results messages, from the child process executing the tests to the Client that made the request.
+ ==============================
+test passed.
+Req #9 - Shall demonstrate correct test operations for two or more concurrent clients. You need to ensure that testing takes enough time to ensure that more than one child process is running at the same time.
+ ==============================
+test passed.
+Req #10 - Shall include an automated unit test suite that demonstrates your Clients and TestHarness satisfy all of the functional requirements, above.
+ ==============================
+test passed.
