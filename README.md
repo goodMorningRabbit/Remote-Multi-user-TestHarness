@@ -23,3 +23,8 @@ The client uses Comm's sendfile mechanism to transparently send each message.
 ## Displaying the results of testing:
 The user has to be able to tell which results belong to which requests. With asynchronous message passing, it is possible for the results to arrive out-of-order, because each test is likely to take a different amount of time to complete and is executed concurrently with other testing. You can handle this by giving each TestRequest a unique identifier, and embed that identifier in the results message.
 Each results message will have a status: pass or fail, and additional information that is likely to vary in contents and quantity from test to test. You should design a structure for reporting test results, and design the UI display to accomodate that structure, perhaps as a list of textual information items.
+# 3. Usage
+It's simple:
+1. git clone this repo
+2. Run compile.bat and run.bat, then play with the GUI
+3. test results are shown on the ./log_files seperately
