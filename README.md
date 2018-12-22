@@ -1,10 +1,8 @@
 # Remote-Multi-user-TestHarness
 
 # 1. Introduction
-One focus area for this course is understanding how to structure and implement big software systems.
-By big we mean systems that may consist of hundreds or even thousands of packages and perhaps several million lines of code. 
-In order to successfully implement big systems we need to partition code into relatively small parts and thoroughly test each of the parts before inserting them into the software baseline. Managing that process efficiently requires effective tools for code analysis as well as testing. 
-This testharness provide a multi user and remote test tool, which is useful for most C++ developers.
+Big software systems that may consist of hundreds or even thousands of packages and perhaps several million lines of code. 
+In order to successfully implement big systems we need to partition code into relatively small parts and thoroughly test each of the parts before inserting them into the software baseline. Managing that process efficiently requires effective tools for code analysis as well as testing. This testharness provide a multi user and remote test tool, which is useful for most C++ developers.
 
 # 2. Structure
 The TestHarness must support:
