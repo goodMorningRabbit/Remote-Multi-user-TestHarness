@@ -1,4 +1,4 @@
-# Remote-Multi-user-TestHarness
+# Remote-Multi-User-TestHarness
 
 # 1. Introduction
 Big software systems that may consist of hundreds or even thousands of packages and perhaps several million lines of code. 
