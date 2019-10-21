@@ -28,7 +28,7 @@
 *  That means that we can register standard streams that derive from
 *  std::ostream with a logger if its add function accepts pointers or
 *  references to the base std::ostream class.
-*
+*  some code change here to merge with
 *  Maintenance History:
 *  --------------------
 *  ver 1.0 : 20 Sep 2018
