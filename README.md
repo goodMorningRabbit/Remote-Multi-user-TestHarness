@@ -1,6 +1,8 @@
 # Remote-Multi-User-TestHarness
 
 # 1. Introduction
+Course project at Syracuse University CSE681 OOD with Professor Jim Fawcette.
+
 Big software systems that may consist of hundreds or even thousands of packages and perhaps several million lines of code. 
 In order to successfully implement big systems we need to partition code into relatively small parts and thoroughly test each of the parts before inserting them into the software baseline. Managing that process efficiently requires effective tools for code analysis as well as testing. This testharness provide a multi user and remote test tool, which is useful for most C++ developers.
 
